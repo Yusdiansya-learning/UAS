@@ -1,0 +1,39 @@
+.services-2{
+    margin-top: 36vh;
+    .container{
+        .row{
+            margin-bottom: 36vh;
+            .col{         
+                img{
+                    margin-right: 25px;
+                }              
+                h1{
+                    font-size: 45px;
+                    line-height: 1.6;
+                    letter-spacing: 2.82px;
+                    font-weight: 700;
+                    color: #1f2960;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 1.88;
+                    letter-spacing: .46px;
+                    color: #525c79;
+                    margin-bottom: 1rem;
+                    width: 450px;
+                    margin-right: 25px;                                       
+                }
+            }
+        }
+    }
+}
+.kotak {
+    width: 200px;
+    height: 130px;
+    position: absolute;
+    background-color: #ffc425;
+    top: 0;
+    right: 9.6%;
+    border-radius: 1px;
+    z-index: 3;    
+  }

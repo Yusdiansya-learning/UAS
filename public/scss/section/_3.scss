@@ -1,0 +1,54 @@
+.tiga {
+    background-color: #fff;
+    width: 90%;
+    margin-left: 135px;
+    margin-top: 150px;
+
+    .container {
+        padding-top: 20vh;
+
+        .row {
+            .kiri {
+                .row {
+                    .col {
+                        h5 {
+                            font-size: 16px;
+                            line-height: 1.88;
+                            letter-spacing: .46px;
+                            color: #525c79;
+                            font-weight: 200;
+                        }
+                    }
+                }
+
+                .left {
+                    display: flex;
+                    align-items: center;
+
+                    .grid {
+                        width: 100px;
+                        height: 1px;
+                        background-color: #fff;
+                    }
+
+                    .text {
+                        color: #fff;
+                        margin-left: 20px;
+                        font-size: 14px;
+                        line-height: 30px;
+                        font-weight: 300;
+                        letter-spacing: 3.96px;
+                    }
+                }
+            }
+
+            .kanan {
+                img{
+                    float: right;
+                    margin-right: -50px;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,97 @@
+body{
+    background: #f4f8fe;
+}
+.services{
+    background: #0833ab;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .container {
+        
+        .navbar-nav {
+            font-family: montserrat;
+            position: relative;
+            padding: 45px 30px 45px 0;
+            margin-left: 30px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 1.57px;
+            text-align: center;
+            text-transform: uppercase;
+            z-index: 99;
+
+            .nav-item {
+                a {
+                    margin-left: 70px;
+                    font-size: 15px;                    
+                }
+            }
+        }
+        .down-teks {
+            padding-top: 120px;
+            .left {
+                display: flex;
+                align-items: center;
+
+                .grid {
+                    width: 100px;
+                    height: 1px;
+                    background-color: #fff;
+                }
+
+                .text {
+                    color: #fff;
+                    margin-left: 20px;
+                    font-size: 14px;
+                    line-height: 30px;
+                    font-weight: 300;
+                    letter-spacing: 3.96px;
+                }
+            }
+            h1{
+                color: #fff;
+                font-size: 50px;
+                line-height: 1.6;
+                letter-spacing: 2.82px;
+                font-weight: 700;
+            }
+            h5{
+                font-size: 16px;
+                line-height: 1.88;
+                letter-spacing: .46px;
+                color: #fff;
+            }
+        }
+        .kanan{
+            .row{
+                .col{
+                    img{
+                        width: 105px;
+                        height: 80px;
+                        margin: 50px 0 0 0;
+                        margin-left: -10px;
+                    }
+                    p{
+                        color: #fff;
+                        margin: 30px 0 0;
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-left: -14px;                        
+                    }
+                }
+            }
+        }
+        .img-bawah{
+            margin-left: -30px;
+            margin-top: 25px;
+            padding-bottom: 100px;
+            img{
+                width: 50px;
+                margin-left: 30px;
+                                
+            }
+        }   
+    }      
+}        

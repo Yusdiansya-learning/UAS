@@ -1,0 +1,153 @@
+.footer {
+    background-color: #0833ab;
+    width: 100%;
+    margin-top: -15px;
+
+    .container {
+        .down-teks {
+            padding-top: 140px;
+            .left {
+                display: flex;
+                align-items: center;
+
+                .grid {
+                    width: 100px;
+                    height: 1px;
+                    background-color: #fff;
+                }
+
+                .text {
+                    color: #fff;
+                    margin-left: 20px;
+                    font-size: 14px;
+                    line-height: 30px;
+                    font-weight: 300;
+                    letter-spacing: 3.96px;
+                }
+            }
+
+            h1 {
+                font-size: 40px;
+                line-height: 1.6;
+                font-weight: 900;
+                color: #fff;
+                padding-bottom: 50px;                
+                width: 70%;
+            }
+
+            .footer-dalam {
+                h4 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    letter-spacing: .73px;
+                    color: #fff;
+                }
+                .lima-btn {
+                    display: inline-block;
+                }
+                a {
+                    margin-top: 25px;
+                    margin-right: 15px;
+                    width: 150px;
+                    text-decoration: none;
+                    display: inline-block;
+                    padding: 13px 0;
+                    color: #fff;
+                    border: .5px solid #fff;
+                    position: relative;
+                    z-index: 1;
+                    -webkit-transition: color 0.5s;
+                    transition: color 0.5s;
+                    text-align: center;
+                    border-radius: 4px;
+                    font-size: 12px;
+                }
+                span {
+                    width: 0;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: #ffc425;
+                    z-index: -1;
+                    -webkit-transition: 0.5s;
+                    transition: 0.5s;
+                }
+                a:hover span {
+                    width: 100%;
+                    border-radius: 4px;
+                }
+                a:hover {
+                    color: #1f2960;
+                    border-color: #ffc425;
+                }
+
+            }
+            .row{
+                margin: 80px 0;
+                label[for] {
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: #fff;
+                }
+                input[type="text"], input[type="URL"] {
+                    width: 75%;
+                    margin-top: 90px;
+                    margin-left: -59px;
+                    border: unset;
+                    border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+                    background: transparent;
+                    border-radius: unset;
+                    padding: 5px 0 !important;
+                    color: #fff;
+                }
+                input[type="text2"], input[type="URL"] {
+                    width: 75%;
+                    margin-top: 90px;
+                    margin-left: -85px;
+                    border: unset;
+                    border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+                    background: transparent;
+                    border-radius: unset;
+                    padding: 5px 0 !important;
+                    color: #fff;
+                }
+                input[type="text1"], input[type="URL"]{
+                    width: 75%;
+                    margin-top: 80px;
+                    margin-left: -62px;
+                    border: unset;
+                    border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+                    background: transparent;
+                    border-radius: unset;
+                    padding: 5px 0 !important;
+                    color: #fff;
+                }
+            }            
+        }
+    }
+}
+.footer-akhir{
+    margin-top: 100px;
+}
+.akhirs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 2px #395cbc;
+    padding: 70px 0;
+}
+.second img{
+    width: 35px;
+    margin-right: 15px;
+    height: 35px;
+}
+.second p{
+    color: #fff;
+    font-weight: lighter;
+    margin-top: 8px;
+}
+.third img{
+    width: 40px;
+    margin-left: 20px;
+}

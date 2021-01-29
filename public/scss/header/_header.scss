@@ -1,0 +1,83 @@
+header {
+    background: linear-gradient(240deg, rgba(8, 50, 168, 0.67), #0832a8), url(../asset/main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .container {
+
+
+        .navbar-nav {
+            font-family: montserrat;
+            position: relative;
+            padding: 45px 30px 45px 0;
+            margin-left: 30px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 1.57px;
+            text-align: center;
+            text-transform: uppercase;
+            z-index: 99;
+
+            .nav-item {
+                a {
+                    margin-left: 70px;
+                    font-size: 15px;                    
+                }
+            }
+        }
+
+        .teks {
+            .row {
+                .col {
+                    button{
+                        padding: 15px 50px 15px 50px !important;
+                        margin-top: 50px;
+                        margin-bottom: 50px;
+                        text-transform: uppercase;                             
+                    }
+                    .lorem {
+                        font-weight: bold;
+                        letter-spacing: 2.5px;
+                        line-height: 1.6;
+                        margin-top: -30px;
+                        
+                    }
+
+                    .left {
+                        display: flex;
+                        align-items: center;
+
+                        .grid {
+                            width: 100px;
+                            height: 1px;
+                            background-color: #fff;
+                        }
+
+                        .text {
+                            color: #fff;
+                            margin-left: 20px;
+                            font-size: 14px;
+                            line-height: 30px;
+                            font-weight: 300;
+                            letter-spacing: 3.96px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+.kotak {
+    width: 200px;
+    height: 130px;
+    position: absolute;
+    background-color: #ffc425;
+    top: 0;
+    right: 9.6%;
+    border-radius: 1px;
+    z-index: 3;    
+  }
+

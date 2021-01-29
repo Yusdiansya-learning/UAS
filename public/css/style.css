@@ -1,0 +1,884 @@
+* {
+  font-family: montserrat;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+header {
+  background: linear-gradient(240deg, rgba(8, 50, 168, 0.67), #0832a8), url(../asset/main.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header .container .navbar-nav {
+  font-family: montserrat;
+  position: relative;
+  padding: 45px 30px 45px 0;
+  margin-left: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.57px;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 99;
+}
+
+header .container .navbar-nav .nav-item a {
+  margin-left: 70px;
+  font-size: 15px;
+}
+
+header .container .teks .row .col button {
+  padding: 15px 50px 15px 50px !important;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+header .container .teks .row .col .lorem {
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  line-height: 1.6;
+  margin-top: -30px;
+}
+
+header .container .teks .row .col .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .teks .row .col .left .grid {
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+}
+
+header .container .teks .row .col .left .text {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 3.96px;
+}
+
+.kotak {
+  width: 200px;
+  height: 130px;
+  position: absolute;
+  background-color: #ffc425;
+  top: 0;
+  right: 9.6%;
+  border-radius: 1px;
+  z-index: 3;
+}
+
+.dua {
+  margin-top: 150px;
+}
+
+.dua .container .row .kiri .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dua .container .row .kiri .left .grid {
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.dua .container .row .kiri .left .text {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 3.96px;
+}
+
+.dua .container .row .kanan {
+  margin-left: 50px;
+}
+
+.dua .container .row .kanan .row .col img {
+  width: 120px;
+}
+
+.dua .container .row .kanan .row .col p {
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: .73px;
+  color: #1f2960;
+  padding-top: 10px;
+  margin: 20px 0px 0px;
+}
+
+.dua .gambar img {
+  margin-top: -150px;
+}
+
+.tiga {
+  background-color: #fff;
+  width: 90%;
+  margin-left: 135px;
+  margin-top: 150px;
+}
+
+.tiga .container {
+  padding-top: 20vh;
+}
+
+.tiga .container .row .kiri .row .col h5 {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: .46px;
+  color: #525c79;
+  font-weight: 200;
+}
+
+.tiga .container .row .kiri .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tiga .container .row .kiri .left .grid {
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.tiga .container .row .kiri .left .text {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 3.96px;
+}
+
+.tiga .container .row .kanan img {
+  float: right;
+  margin-right: -50px;
+}
+
+.empat {
+  margin-top: 80px;
+}
+
+.empat .container .atas .col .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.empat .container .atas .col .left .grid {
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.empat .container .atas .col .left .text {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 3.96px;
+}
+
+.empat .container .bawah .col img {
+  border-radius: 8px;
+  height: 85vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+}
+
+.empat .container .bawah .two h5 {
+  width: 70%;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: .46px;
+  color: #525c79;
+  font-weight: 200;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.empat .container .bawah-lagi .col h5 {
+  width: 70%;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: .46px;
+  color: #525c79;
+  font-weight: 200;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.empat .container .bawah-lagi .col img {
+  border-radius: 8px;
+  height: 85vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+}
+
+.lima {
+  margin-top: 100px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.lima .container .row .col .gambar img {
+  width: 100px;
+  padding: 55px 0;
+}
+
+.lima .container .row .lagi {
+  padding-top: 40vh;
+}
+
+.lima .container .row .lagi h4 {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #525c79;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.lima .container .row .lagi img {
+  width: 60px;
+  border-radius: 30px;
+  background-position: center;
+  float: left;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.lima .container .row .lagi h5 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: .51px;
+  color: #0832a8;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.lima .container .row .lagi p {
+  letter-spacing: .46px;
+  color: #555f7f;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #0833ab;
+  width: 100%;
+  margin-top: -15px;
+}
+
+.footer .container .down-teks {
+  padding-top: 140px;
+}
+
+.footer .container .down-teks .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container .down-teks .left .grid {
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.footer .container .down-teks .left .text {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 3.96px;
+}
+
+.footer .container .down-teks h1 {
+  font-size: 40px;
+  line-height: 1.6;
+  font-weight: 900;
+  color: #fff;
+  padding-bottom: 50px;
+  width: 70%;
+}
+
+.footer .container .down-teks .footer-dalam h4 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: .73px;
+  color: #fff;
+}
+
+.footer .container .down-teks .footer-dalam .lima-btn {
+  display: inline-block;
+}
+
+.footer .container .down-teks .footer-dalam a {
+  margin-top: 25px;
+  margin-right: 15px;
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 13px 0;
+  color: #fff;
+  border: .5px solid #fff;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.footer .container .down-teks .footer-dalam span {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffc425;
+  z-index: -1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footer .container .down-teks .footer-dalam a:hover span {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.footer .container .down-teks .footer-dalam a:hover {
+  color: #1f2960;
+  border-color: #ffc425;
+}
+
+.footer .container .down-teks .row {
+  margin: 80px 0;
+}
+
+.footer .container .down-teks .row label[for] {
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer .container .down-teks .row input[type="text"], .footer .container .down-teks .row input[type="URL"] {
+  width: 75%;
+  margin-top: 90px;
+  margin-left: -59px;
+  border: unset;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  border-radius: unset;
+  padding: 5px 0 !important;
+  color: #fff;
+}
+
+.footer .container .down-teks .row input[type="text2"], .footer .container .down-teks .row input[type="URL"] {
+  width: 75%;
+  margin-top: 90px;
+  margin-left: -85px;
+  border: unset;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  border-radius: unset;
+  padding: 5px 0 !important;
+  color: #fff;
+}
+
+.footer .container .down-teks .row input[type="text1"], .footer .container .down-teks .row input[type="URL"] {
+  width: 75%;
+  margin-top: 80px;
+  margin-left: -62px;
+  border: unset;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  border-radius: unset;
+  padding: 5px 0 !important;
+  color: #fff;
+}
+
+.footer-akhir {
+  margin-top: 100px;
+}
+
+.akhirs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: solid 2px #395cbc;
+  padding: 70px 0;
+}
+
+.second img {
+  width: 35px;
+  margin-right: 15px;
+  height: 35px;
+}
+
+.second p {
+  color: #fff;
+  font-weight: lighter;
+  margin-top: 8px;
+}
+
+.third img {
+  width: 40px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 720px) {
+  header,
+  section,
+  .footer {
+    overflow: hidden;
+  }
+  .kotak {
+    display: none;
+  }
+  header .container .teks {
+    margin-top: 100px;
+  }
+  header .container .teks .row h1 {
+    font-size: 34px !important;
+  }
+  header .container .teks .row h1 br {
+    display: none;
+  }
+  header .container .teks .row p {
+    margin-bottom: 10px;
+  }
+  header .container .teks .sim button {
+    margin-top: 10px !important;
+  }
+  .dua {
+    margin-top: 30px;
+  }
+  .dua .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .dua .container .row .tengah h1 {
+    font-size: 30px !important;
+    margin-top: -15px;
+  }
+  .dua .container .row .tengah button {
+    margin-bottom: 20px;
+  }
+  .dua .container .row .kanan .row .col {
+    width: 170px;
+  }
+  .dua .container .row .kanan .row .col img {
+    width: 100px;
+    margin-left: -40px;
+  }
+  .dua .container .row .kanan .row .col p {
+    font-size: 18px;
+    margin-left: -43px;
+  }
+  .dua .container .row .kiri {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+  .tiga {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .tiga .container .row .kiri h1 {
+    font-size: 30px !important;
+  }
+  .tiga .container .row .kiri .row .col h5 {
+    font-size: 14px;
+  }
+  .tiga .container .row .kiri button {
+    margin-top: -30px;
+  }
+  .tiga .container .row .kanan img {
+    width: 300px;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+  .empat .container .atas .col h1 {
+    font-size: 28px !important;
+  }
+  .empat .container .bawah .col img {
+    width: 450px !important;
+    margin-top: -40px;
+  }
+  .empat .container .bawah .two h1 {
+    font-size: 28px !important;
+    padding-top: 10px;
+    margin-left: -45px !important;
+  }
+  .empat .container .bawah .two h5 {
+    margin-left: -45px !important;
+    width: 445px;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    font-size: 14px;
+    margin-top: -10px;
+  }
+  .empat .container .bawah .two button {
+    margin-left: -45px !important;
+    margin-bottom: 30px;
+  }
+  .empat .container .bawah-lagi {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .empat .container .bawah-lagi .zatu {
+    margin-left: -60px !important;
+  }
+  .empat .container .bawah-lagi .zatu h1 {
+    font-size: 28px !important;
+    padding-top: 10px;
+  }
+  .empat .container .bawah-lagi .zatu h5 {
+    width: 445px;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    font-size: 14px;
+    margin-top: -10px;
+  }
+  .empat .container .bawah-lagi .zatu button {
+    margin-bottom: 30px;
+  }
+  .empat .container .bawah-lagi .dwua img {
+    width: 450px !important;
+  }
+  .lima .container .row .col h1 {
+    font-size: 28px !important;
+    margin-top: -90px;
+  }
+  .lima .container .row .col h1 br {
+    display: none;
+  }
+  .lima .container .row .lagi h4 {
+    margin-top: -220px;
+    font-size: 14px;
+  }
+  .lima .container .row .lagi .sip h5 {
+    margin-left: -25px;
+  }
+  .lima .container .row .lagi .sip P {
+    margin-left: -25px;
+  }
+  .lima .container .akhir {
+    margin-top: -0px;
+  }
+  .lima .container .akhir .zip .col h1 {
+    font-size: 22px !important;
+    margin-left: 115px;
+    margin-top: -20px;
+  }
+  .lima .container .akhir .bip .row img {
+    width: 200px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .footer .container .down-teks {
+    padding-top: 60px;
+  }
+  .footer .container .down-teks h1 {
+    font-size: 28px;
+    width: 100%;
+    margin-top: -10px;
+  }
+  .footer .container .down-teks .footer-dalam h4 {
+    margin-top: -40px;
+  }
+  .footer .container .down-teks .row label[for] {
+    margin-top: -20px;
+  }
+  .footer .container .down-teks .row input[type="text"],
+  .footer .container .down-teks .row input[type="URL"] {
+    width: 100% !important;
+    margin-top: 50px;
+  }
+  .footer .container .down-teks .row input[type="text2"],
+  .footer .container .down-teks .row input[type="URL"] {
+    width: 100% !important;
+    margin-top: 90px;
+  }
+  .footer .container .down-teks .row input[type="text1"],
+  .footer .container .down-teks .row input[type="URL"] {
+    width: 100% !important;
+    padding-left: 20px;
+    margin-top: 50px;
+  }
+  .footer .container .down-teks button {
+    width: 100%;
+  }
+  .footer .container .footer-akhir .container .akhirs .row img {
+    visibility: hidden;
+  }
+  .footer .container .footer-akhir .container .akhirs .row p {
+    position: absolute;
+    left: 36%;
+  }
+  .services .container .down-teks {
+    margin-top: -90px;
+  }
+  .services .container .down-teks h1 {
+    font-size: 34px !important;
+    line-height: 1.3;
+  }
+  .services .container .down-teks h5 {
+    font-size: 14px !important;
+  }
+  .services .container .kanan .row .col {
+    margin-right: 130px;
+  }
+  .services .container .kanan .row .col img {
+    min-height: 80px;
+  }
+  .services .container .kanan .row .col p {
+    width: 200px !important;
+  }
+  .services-2 .container .row .change img {
+    margin-left: -10px;
+  }
+  .services-2 .container .row .down {
+    margin-left: 5px;
+  }
+  .services-2 .container .row .down h1 {
+    font-size: 34px !important;
+    line-height: 1.3 !important;
+    width: 400px !important;
+  }
+  .services-2 .container .row .down p {
+    font-size: 14px !important;
+  }
+  .services-2 .container .pow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.tangan {
+  width: 420px;
+  padding-top: 30px;
+}
+
+body {
+  background: #f4f8fe;
+}
+
+.services {
+  background: #0833ab;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.services .container .navbar-nav {
+  font-family: montserrat;
+  position: relative;
+  padding: 45px 30px 45px 0;
+  margin-left: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.57px;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 99;
+}
+
+.services .container .navbar-nav .nav-item a {
+  margin-left: 70px;
+  font-size: 15px;
+}
+
+.services .container .down-teks {
+  padding-top: 120px;
+}
+
+.services .container .down-teks .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .container .down-teks .left .grid {
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.services .container .down-teks .left .text {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 3.96px;
+}
+
+.services .container .down-teks h1 {
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.6;
+  letter-spacing: 2.82px;
+  font-weight: 700;
+}
+
+.services .container .down-teks h5 {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: .46px;
+  color: #fff;
+}
+
+.services .container .kanan .row .col img {
+  width: 105px;
+  height: 80px;
+  margin: 50px 0 0 0;
+  margin-left: -10px;
+}
+
+.services .container .kanan .row .col p {
+  color: #fff;
+  margin: 30px 0 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: -14px;
+}
+
+.services .container .img-bawah {
+  margin-left: -30px;
+  margin-top: 25px;
+  padding-bottom: 100px;
+}
+
+.services .container .img-bawah img {
+  width: 50px;
+  margin-left: 30px;
+}
+
+.services-2 {
+  margin-top: 36vh;
+}
+
+.services-2 .container .row {
+  margin-bottom: 36vh;
+}
+
+.services-2 .container .row .col img {
+  margin-right: 25px;
+}
+
+.services-2 .container .row .col h1 {
+  font-size: 45px;
+  line-height: 1.6;
+  letter-spacing: 2.82px;
+  font-weight: 700;
+  color: #1f2960;
+}
+
+.services-2 .container .row .col p {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: .46px;
+  color: #525c79;
+  margin-bottom: 1rem;
+  width: 450px;
+  margin-right: 25px;
+}
+
+.kotak {
+  width: 200px;
+  height: 130px;
+  position: absolute;
+  background-color: #ffc425;
+  top: 0;
+  right: 9.6%;
+  border-radius: 1px;
+  z-index: 3;
+}
+
+body {
+  background: #f4f8fe;
+}
+
+.works .container .navbar-nav {
+  font-family: montserrat;
+  position: relative;
+  padding: 45px 30px 45px 0;
+  margin-left: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.57px;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 99;
+}
+
+.works .container .navbar-nav .nav-item a {
+  margin-left: 70px;
+  font-size: 15px;
+  color: #1f2960 !important;
+}
+/*# sourceMappingURL=style.css.map */

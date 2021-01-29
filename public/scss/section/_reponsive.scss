@@ -1,0 +1,377 @@
+@media screen and (max-width: 720px) {
+
+    header,
+    section,
+    .footer {
+        overflow: hidden;
+    }
+    .kotak{
+        display: none;
+    }   
+
+    header {
+        .container {
+            .teks {
+                margin-top: 100px;
+
+                .row {
+                    h1 {
+                        font-size: 34px !important;
+                    }
+
+                    h1 br {
+                        display: none;
+                    }
+
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .sim {
+                    button {
+                        margin-top: 10px !important;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .dua {
+        margin-top: 30px;
+
+        .container {
+            .row {
+                display: flex;
+                flex-direction: row;
+
+                .tengah {
+                    h1 {
+                        font-size: 30px !important;
+                        margin-top: -15px;
+                    }
+
+                    button {
+                        margin-bottom: 20px;
+                    }
+                }
+
+                .kanan {
+                    .row {
+                        .col {
+                            width: 170px;
+
+                            img {
+                                width: 100px;
+                                margin-left: -40px;
+                            }
+
+                            p {
+                                font-size: 18px;
+                                margin-left: -43px;
+
+                            }
+                        }
+                    }
+                }
+
+                .kiri {
+                    flex-basis: 100%;
+                    margin-bottom: 40px;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+
+    .tiga {
+        margin-left: 0px;
+        width: 100%;
+
+        .container {
+            .row {
+                .kiri {
+                    h1 {
+                        font-size: 30px !important;
+                    }
+
+                    .row {
+                        .col {
+                            h5 {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    button {
+                        margin-top: -30px;
+                    }
+                }
+
+                .kanan {
+                    img {
+                        width: 300px;
+                        overflow: hidden;
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .empat {
+        .container {
+            .atas {
+                .col {
+                    h1 {
+                        font-size: 28px !important;
+                    }
+                }
+            }
+
+            .bawah {
+                .col {
+                    img {
+                        width: 450px !important;
+                        margin-top: -40px;
+                    }
+                }
+
+                .two {
+                    h1 {
+                        font-size: 28px !important;
+                        padding-top: 10px;
+                        margin-left: -45px !important;
+                    }
+
+                    h5 {
+                        margin-left: -45px !important;
+                        width: 445px;
+                        flex-basis: 100%;
+                        font-size: 14px;
+                        margin-top: -10px;
+
+                    }
+
+                    button {
+                        margin-left: -45px !important;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .bawah-lagi {
+                flex-direction: column-reverse;
+
+                .zatu {
+                    margin-left: -60px !important;
+
+                    h1 {
+                        font-size: 28px !important;
+                        padding-top: 10px;
+                    }
+
+                    h5 {
+                        width: 445px;
+                        flex-basis: 100%;
+                        font-size: 14px;
+                        margin-top: -10px;
+
+                    }
+
+                    button {
+                        margin-bottom: 30px;
+                    }
+                }
+
+                .dwua {
+                    img {
+                        width: 450px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .lima {
+        .container {
+            .row {
+                .col {
+                    h1 {
+                        font-size: 28px !important;
+                        margin-top: -90px;
+                    }
+
+                    h1 br {
+                        display: none;
+                    }
+
+                }
+
+                .lagi {
+                    h4 {
+                        margin-top: -220px;
+                        font-size: 14px;
+                    }
+
+                    .sip {
+                        h5 {
+                            margin-left: -25px;
+                        }
+
+                        P {
+                            margin-left: -25px;
+                        }
+                    }
+                }
+            }
+
+            .akhir {
+                margin-top: -0px;
+
+                .zip {
+                    .col {
+                        h1 {
+                            font-size: 22px !important;
+                            margin-left: 115px;
+                            margin-top: -20px;
+                        }
+                    }
+                }
+
+                .bip {
+                    .row {
+                        img {
+                            width: 200px;
+                            padding: 10px;
+                            box-sizing: border-box;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        .container {
+            .down-teks {
+                padding-top: 60px;
+
+                h1 {
+                    font-size: 28px;
+                    width: 100%;
+                    margin-top: -10px;
+                }
+
+                .footer-dalam {
+                    h4 {
+                        margin-top: -40px;
+                    }
+                }
+
+                .row {
+                    label[for] {
+                        margin-top: -20px;
+                    }
+
+                    input[type="text"],
+                    input[type="URL"] {
+                        width: 100% !important;
+                        margin-top: 50px;
+                    }
+
+                    input[type="text2"],
+                    input[type="URL"] {
+                        width: 100% !important;
+                        margin-top: 90px;
+                    }
+
+                    input[type="text1"],
+                    input[type="URL"] {
+                        width: 100% !important;
+                        padding-left: 20px;
+                        margin-top: 50px;
+                    }
+                }
+
+                button {
+                    width: 100%;
+                }
+            }
+
+            .footer-akhir {
+                .container {
+                    .akhirs {
+                        .row {
+                            img {
+                                visibility: hidden;
+                            }
+                            p{
+                               position: absolute;
+                               left: 36%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .services{
+        .container{
+            .down-teks{
+                margin-top: -90px;
+                h1{
+                    font-size: 34px !important;
+                    line-height: 1.3;
+                }
+                h5{
+                    font-size: 14px !important;
+                }
+            }
+            .kanan{
+                .row{
+                    .col{
+                        margin-right: 130px;
+                        img{
+                            min-height: 80px;                            
+                        }
+                        p{
+                            width: 200px!important;
+                        }                        
+                    }
+                }
+            }
+        }
+    }
+    .services-2{
+        .container{
+            .row{
+                .change{
+                    img{
+                        margin-left: -10px;
+                    }
+                }
+                .down{
+                    margin-left: 5px;
+                    h1{
+                        font-size: 34px !important;
+                        line-height: 1.3 !important;
+                        width: 400px!important;
+                    }
+                    p{
+                        font-size: 14px !important;
+                    }
+                }
+            }
+            .pow{
+                flex-direction: column-reverse; 
+            }
+        }
+    }    
+}
+
+.tangan {
+    width: 420px;
+    padding-top: 30px;
+}
